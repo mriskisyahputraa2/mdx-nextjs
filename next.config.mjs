@@ -1,6 +1,8 @@
 import nextMDX from "@next/mdx";
 
-const withMDX = nextMDX();
+const withMDX = nextMDX({
+  // Anda bisa menambahkan opsi konfigurasi MDX di sini jika diperlukan
+});
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
