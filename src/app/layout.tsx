@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="bg-slate-900 text-white max-w-7xl mx-auto py-10 px-6"
+      className="bg-slate-900 text-white lg:max-w-6xl mx-auto py-10 px-6"
     >
       <body>
         {/* Main Wrapper */}

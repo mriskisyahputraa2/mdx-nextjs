@@ -37,7 +37,7 @@ export default function Home() {
   const allFiles = [...blogFiles, ...contentFiles];
 
   return (
-    <main className="flex flex-col max-w-7xl mx-auto py-10 px-6">
+    <main className="container mx-auto lg:max-w-6xl mt-20 flex flex-col gap-6">
       {/* Title Section */}
       <h1 className="text-4xl font-bold text-center text-tealGreen mb-8">
         My Next.js Blog Site

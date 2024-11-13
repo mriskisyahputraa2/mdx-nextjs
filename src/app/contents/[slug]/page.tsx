@@ -31,7 +31,7 @@ export default async function BlogPage({
 
       {/* Blog Content */}
       <article className="prose prose-sm md:prose-base lg:prose-lg prose-slate !prose-invert">
-        <p>{blog.content}</p>
+        {blog.content}
       </article>
     </main>
   );
